@@ -28,6 +28,7 @@ docs/
 │   ├── general-kb-template.md
 │   ├── worklog-readme-template.md
 │   ├── code-commenting-dual-audience.md
+│   ├── writing-style-guide.md
 │   ├── script-header-*.md
 │   ├── tagging-strategy.md
 │   └── README.md
@@ -49,7 +50,7 @@ docs/
 
 | Document | Description |
 |----------|-------------|
-| [data-science-infrastructure.md](data-science-infrastructure.md) | Example infrastructure reference — replace with project-specific docs |
+| [data-science-infrastructure.md](data-science-infrastructure.md) | Example infrastructure reference (replace with project-specific docs) |
 
 ---
 

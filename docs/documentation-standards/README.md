@@ -27,6 +27,7 @@ documentation-standards/
 ├── general-kb-template.md           # Standalone documents
 ├── worklog-readme-template.md       # Work log entries
 ├── code-commenting-dual-audience.md # Code comment methodology
+├── writing-style-guide.md           # Prose conventions and AI tell suppression
 ├── tagging-strategy.md              # Controlled vocabulary for tags
 ├── script-header-python.md          # Python script header
 ├── script-header-shell.md           # Bash script header
@@ -61,6 +62,7 @@ documentation-standards/
 |----------|---------|
 | [tagging-strategy.md](tagging-strategy.md) | Controlled vocabulary for YAML frontmatter tags |
 | [code-commenting-dual-audience.md](code-commenting-dual-audience.md) | Writing comments for humans and AI agents |
+| [writing-style-guide.md](writing-style-guide.md) | Prose conventions, AI tell suppression |
 
 ---
 
@@ -68,9 +70,9 @@ documentation-standards/
 
 ### RAG Infrastructure (Always Keep)
 
-- **YAML frontmatter** — enables retrieval and filtering
-- **Semantic numbering** — predictable section structure
-- **Preserved gaps** — if you omit section 4, keep numbering as 1, 2, 3, 5 (never renumber)
+- **YAML frontmatter** enables retrieval and filtering
+- **Semantic numbering** provides predictable section structure
+- **Preserved gaps** maintain stability: if you omit section 4, keep numbering as 1, 2, 3, 5 (never renumber)
 
 ### Bottom-Up Approach
 

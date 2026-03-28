@@ -22,13 +22,13 @@ related_documents:
 
 > Standardized scaffolding for AI-native, RAG-optimized project repositories with documentation templates, agent instructions, and development workflow structure.
 
-This repository provides the foundational structure for new projects within [RadioAstronomy.io](https://github.com/radioastronomyio). It establishes consistent patterns for documentation, AI agent collaboration, and development workflow — designed to be forked or used as a GitHub template when starting new work.
+This repository provides the foundational structure for new projects within [RadioAstronomy.io](https://github.com/radioastronomyio). It establishes consistent patterns for documentation, AI agent collaboration, and development workflow. Designed to be forked or used as a GitHub template when starting new work.
 
 ---
 
 ## Overview
 
-Modern development increasingly involves AI agents as collaborators — code assistants, documentation generators, and autonomous workers. Traditional project scaffolding doesn't account for this reality. Files are organized for humans, context is implicit, and agents must rediscover project state every session.
+Modern development increasingly involves AI agents as collaborators: code assistants, documentation generators, and autonomous workers. Traditional project scaffolding doesn't account for this reality. Files are organized for humans, context is implicit, and agents must rediscover project state every session.
 
 This template addresses that gap through **RAG-optimized documentation** (YAML frontmatter, semantic structure, controlled vocabulary), **AGENTS.md** (persistent context that agents load at session start), and **work logs** (development history that agents can reference).
 
@@ -73,6 +73,7 @@ The template provides three layers: documentation infrastructure, agent scaffold
 | Script Headers | ✅ Complete | Python, Shell, PowerShell |
 | Tagging Strategy | ✅ Complete | Controlled vocabulary guide |
 | Code Commenting Guide | ✅ Complete | Dual-audience (human + AI) methodology |
+| Writing Style Guide | ✅ Complete | AI tell suppression and prose conventions |
 | Editor Config | ✅ Complete | VSCode, markdownlint, cspell |
 | Shared Utilities | 🔄 Growing | Tree generator |
 
@@ -128,6 +129,7 @@ The template library in `docs/documentation-standards/` provides consistent form
 |----------|---------|
 | [tagging-strategy.md](docs/documentation-standards/tagging-strategy.md) | Building YAML frontmatter vocabulary |
 | [code-commenting-dual-audience.md](docs/documentation-standards/code-commenting-dual-audience.md) | Writing comments for humans and AI |
+| [writing-style-guide.md](docs/documentation-standards/writing-style-guide.md) | Prose conventions and AI tell suppression |
 
 ---
 
