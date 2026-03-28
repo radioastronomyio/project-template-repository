@@ -1,8 +1,8 @@
 # PowerShell Script Header Template
 
-> Template Version: 1.0  
-> Applies To: All `.ps1` files  
-> Last Updated: [YYYY-MM-DD]
+> Template Version: 2.0
+> Applies To: All `.ps1` files
+> Last Updated: 2026-03-28
 
 ---
 
@@ -18,8 +18,8 @@
     and what outputs it produces. Include any important behavioral notes.]
 
 .NOTES
-    Repository  : [repository-name]
-    Author      : [Author Name] (https://github.com/[username])
+    Repository  : <repo-name>
+    Author      : VintageDon (https://github.com/vintagedon/)
     Created     : YYYY-MM-DD
 
 .EXAMPLE
@@ -33,7 +33,7 @@
     [Description of what this invocation does]
 
 .LINK
-    https://github.com/[org]/[repository-name]
+    https://github.com/radioastronomyio/<repo-name>
 #>
 
 # =============================================================================
@@ -100,8 +100,8 @@ Standard sections (in order):
     is syntactically correct. Outputs a summary of validation results.
 
 .NOTES
-    Repository  : [repository-name]
-    Author      : [Author Name] (https://github.com/[username])
+    Repository  : <repo-name>
+    Author      : VintageDon (https://github.com/vintagedon/)
     Created     : YYYY-MM-DD
 
 .EXAMPLE
@@ -110,7 +110,7 @@ Standard sections (in order):
     Validates all configuration files in the repository.
 
 .LINK
-    https://github.com/[org]/[repository-name]
+    https://github.com/radioastronomyio/<repo-name>
 #>
 
 # =============================================================================
@@ -136,3 +136,4 @@ Get-ChildItem -Path $RepoRoot -Recurse -Filter "*.config" | ForEach-Object {
 - PowerShell comment-based help (`.SYNOPSIS`, `.DESCRIPTION`, etc.) enables `Get-Help script-name.ps1`
 - Keep `.SYNOPSIS` under 80 characters
 - Use present tense, active voice ("Validates..." not "This script validates...")
+- See [code-commenting-dual-audience.md](code-commenting-dual-audience.md) for AI NOTE conventions

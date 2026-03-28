@@ -1,8 +1,8 @@
 # Shell Script Header Template
 
-> Template Version: 1.0  
-> Applies To: All `.sh` files  
-> Last Updated: [YYYY-MM-DD]
+> Template Version: 2.0
+> Applies To: All `.sh` files
+> Last Updated: 2026-03-28
 
 ---
 
@@ -13,10 +13,10 @@
 # =============================================================================
 # Script Name  : script-name.sh
 # Description  : [One-line description of what the script does]
-# Repository   : [repository-name]
-# Author       : [Author Name] (https://github.com/[username])
+# Repository   : <repo-name>
+# Author       : VintageDon (https://github.com/vintagedon/)
 # Created      : YYYY-MM-DD
-# Link         : https://github.com/[org]/[repository-name]
+# Link         : https://github.com/radioastronomyio/<repo-name>
 # =============================================================================
 #
 # DESCRIPTION
@@ -126,3 +126,4 @@ export DATA_ROOT="/var/lib/data"
 - Use `main()` function pattern even for simple scripts — it's easier to extend
 - Keep Description line under 80 characters
 - Use present tense, active voice ("Initializes..." not "This script initializes...")
+- See [code-commenting-dual-audience.md](code-commenting-dual-audience.md) for AI NOTE conventions

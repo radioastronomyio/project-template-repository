@@ -1,5 +1,11 @@
 # ============================================================================
-# Comprehensive .gitignore for Python / Data Science / AI-ML Repositories
+# .gitignore Template for Python / Data Science / AI-ML Repositories
+# ============================================================================
+# Copy this file to .gitignore and adjust for your repo.
+#
+# PUBLIC vs PRIVATE repos:
+#   - Public repos: uncomment the "PUBLIC REPO ONLY" lines below
+#   - Private repos: staging/, internal-files/, spec/ should be tracked
 # ============================================================================
 
 # ----------------------------------------------------------------------------
@@ -15,19 +21,20 @@ config.local.*
 *.secrets
 
 # ----------------------------------------------------------------------------
-# VAULT / AGENT WORKFLOW
+# WORKFLOW
 # ----------------------------------------------------------------------------
 *-pending.md
-staging/
+
+# --- PUBLIC REPO ONLY (uncomment for public repos) ---
+# staging/
+# internal-files/
+# spec/
 
 # ----------------------------------------------------------------------------
 # IDE & EDITOR
 # ----------------------------------------------------------------------------
-scratch/
 .vscode/
 .idea/
-.internal-files/
-.ai-sandbox/
 .markdownlint.json
 cspell.json
 *.swp
@@ -165,9 +172,6 @@ wandb/
 outputs/
 runs/
 
-# Weights & Biases
-wandb/
-
 # TensorBoard
 logs/
 tensorboard/
@@ -202,12 +206,6 @@ site/
 *.log
 *.tmp
 *.temp
-
-# Sphinx
-docs/_build/
-
-# MkDocs
-site/
 
 # ----------------------------------------------------------------------------
 # OS GENERATED

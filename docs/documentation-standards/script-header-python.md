@@ -1,8 +1,8 @@
 # Python Script Header Template
 
-> Template Version: 1.0  
-> Applies To: All `.py` files  
-> Last Updated: [YYYY-MM-DD]
+> Template Version: 2.0
+> Applies To: All `.py` files
+> Last Updated: 2026-03-28
 
 ---
 
@@ -13,10 +13,10 @@
 """
 Script Name  : script_name.py
 Description  : [One-line description of what the script does]
-Repository   : [repository-name]
-Author       : [Author Name] (https://github.com/[username])
+Repository   : <repo-name>
+Author       : VintageDon (https://github.com/vintagedon/)
 Created      : YYYY-MM-DD
-Link         : https://github.com/[org]/[repository-name]
+Link         : https://github.com/radioastronomyio/<repo-name>
 
 Description
 -----------
@@ -146,3 +146,4 @@ def validate_file(
 - Use `pathlib.Path` instead of string paths
 - Use type hints for all function parameters and return values
 - Follow PEP 8 style guide
+- See [code-commenting-dual-audience.md](code-commenting-dual-audience.md) for AI NOTE conventions

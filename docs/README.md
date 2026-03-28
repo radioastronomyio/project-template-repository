@@ -2,9 +2,9 @@
 ---
 title: "Documentation"
 description: "Project documentation, standards, and reference materials"
-author: "VintageDon"
-date: "2026-01-02"
-version: "1.0"
+author: "VintageDon (https://github.com/vintagedon/)"
+date: "2026-03-28"
+version: "1.1"
 status: "Active"
 tags:
   - type: directory-readme
@@ -14,7 +14,7 @@ tags:
 
 # Documentation
 
-Project documentation including templates, standards, and infrastructure reference materials.
+Project documentation including templates, standards, and reference materials.
 
 ---
 
@@ -27,11 +27,11 @@ docs/
 │   ├── interior-readme-template.md
 │   ├── general-kb-template.md
 │   ├── worklog-readme-template.md
+│   ├── code-commenting-dual-audience.md
 │   ├── script-header-*.md
 │   ├── tagging-strategy.md
-│   ├── code-commenting-dual-audience.md
 │   └── README.md
-├── data-science-infrastructure.md  # Live infrastructure reference (example)
+├── data-science-infrastructure.md  # Example infrastructure reference doc
 └── README.md                       # This file
 ```
 
@@ -49,7 +49,7 @@ docs/
 
 | Document | Description |
 |----------|-------------|
-| [data-science-infrastructure.md](data-science-infrastructure.md) | Live infrastructure reference — serves as working example of an infrastructure doc agents can use |
+| [data-science-infrastructure.md](data-science-infrastructure.md) | Example infrastructure reference — replace with project-specific docs |
 
 ---
 
@@ -58,5 +58,4 @@ docs/
 | Document | Relationship |
 |----------|--------------|
 | [Repository Root](../README.md) | Parent directory |
-| [AGENTS.md](../AGENTS.md) | Agent configuration that may reference these docs |
-| [.kilocode/rules/memory-bank/](../.kilocode/rules/memory-bank/README.md) | Agent context files |
+| [AGENTS.md](../AGENTS.md) | Agent context loading references these docs |
